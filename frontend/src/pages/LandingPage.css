@@ -1,0 +1,103 @@
+/* LandingPage.css */
+
+.landing-page {
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.landing-page-title {
+  font-size: 2.5rem; /* Title size */
+  color: #333; /* Dark color for contrast */
+}
+
+.landing-page-description {
+  font-size: 1.25rem; /* Description size */
+  color: #555; /* Slightly lighter color */
+}
+
+.landing-page-button {
+  background-color: #ffffff; /* White button background */
+  color: #1e3a8a; /* Dark blue text */
+  padding: 1rem 2rem; /* Increased padding for a larger button */
+  border-radius: 0.5rem; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  margin-top: 1rem; /* Space above the button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+  font-size: 1.125rem; /* Slightly larger font size for the button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for button */
+  border: 2px solid transparent; /* Transparent border for hover effect */
+}
+
+.landing-page-button:hover {
+  background-color: #e5e7eb; /* Light gray on hover */
+  border-color: #0a0a0b; /* Dark blue border on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.feature-card {
+  background-color: white; /* Card background */
+  padding: 1.5rem; /* Card padding */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin: 1rem; /* Margin for spacing */
+}
+
+.feature-title {
+  font-size: 1.5rem; /* Title size */
+  color: #333; /* Dark color for contrast */
+}
+
+.feature-description {
+  font-size: 1rem; /* Description size */
+  color: #555; /* Slightly lighter color */
+}
+
+.testimonial-card {
+  background-color: white; /* Card background */
+  padding: 1.5rem; /* Increased padding for better spacing */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin: 1rem; /* Margin for spacing */
+}
+
+.py-8 {
+  padding-top: 2rem; /* Top padding */
+  padding-bottom: 2rem; /* Bottom padding */
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb; /* Light gray background */
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6; /* Slightly darker gray */
+}
+
+.testimonial-section {
+  padding: 2rem 0; /* Adjust top and bottom padding for the testimonial section */
+  margin-bottom: 2rem; /* Add margin below the testimonial section */
+}
+
+.call-to-action {
+  background-color: #8992b3; /* Dark blue background */
+  color: white; /* White text */
+  padding: 3rem 0; /* Increased padding for a larger box */
+  text-align: center; /* Center text for better alignment */
+  margin: 2rem auto; /* Center the section with auto margins */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  max-width: 1200px; /* Set a max width to match the other section */
+  width: 90%; /* Make it responsive */
+}
+
+.call-to-action h2 {
+  font-family: 'Arial', sans-serif; /* Change to your desired font */
+  font-size: 2rem; /* Decrease font size */
+  font-weight: bold; /* Keep it bold */
+  margin-bottom: 1.5rem; /* Increased margin below the heading */
+}
+
+.feature-section {
+  background-color: #f9fafb; /* Light gray background for the section */
+  padding: 2rem 0; /* Padding for the section */
+  margin-bottom: 2rem; /* Margin below the section */
+}

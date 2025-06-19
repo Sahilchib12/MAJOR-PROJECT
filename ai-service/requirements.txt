@@ -1,0 +1,14 @@
+fastapi==0.110.0         # FastAPI for building the API
+uvicorn==0.29.0          # ASGI server to run FastAPI
+spacy==3.7.2             # NLP processing
+pdfplumber==0.10.3       # Extract text from PDFs
+python-docx==1.1.0       # Extract text from DOCX files
+scikit-learn==1.4.1.post1 # Machine learning utilities (TF-IDF, cosine similarity)
+redis==5.0.3             # Redis caching
+pydantic==1.10.2         # Data validation and parsing
+pytest==8.1.1            # Testing framework
+httpx==0.27.0            # Async HTTP client for testing FastAPI
+numpy==1.26.4            # Required for numerical operations in ML
+python-multipart==0.0.5  # Required for handling file uploads in FastAPI
+# python -m spacy download en_core_web_sm
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
